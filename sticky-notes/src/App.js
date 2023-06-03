@@ -1,5 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
+import AddNoteButton from './addNoteButton/AddNoteButton';
+import NewInput from './newInput/NewInput';
+import PlusButton from './plusButton/PlusButton';
 import StickyNote from './stickyNote/StickyNote';
 
 function App() {
@@ -7,9 +10,12 @@ function App() {
     <div className="App">
       <h1>My Sticky Notes</h1>
       <div className="notesArea">
-      <StickyNote color="#FBFF2B"></StickyNote>;
-      <StickyNote color="#1EF1FF"></StickyNote>;
-    </div>
+      <StickyNote color="#FBFF2B"></StickyNote>
+      <StickyNote color="#1EF1FF"></StickyNote>
+      <PlusButton/>
+      </div>
+      <NewInput/>
+      <AddNoteButton/>
 
 
       {/* <header className="App-header">

@@ -2,12 +2,11 @@
   /* text-align: center; */
   box-sizing: border-box;
   background-color: #BF06B8;  
-  min-height: 100vh;
+  min-height: 100svh;
 }
 
 h1 {
-  /* width: 177px;
-  height: 29px; */
+  height: 29px;
   margin: 0;
   padding-left: 27px;
   padding-top: 34px;
