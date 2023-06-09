@@ -1,8 +1,9 @@
 .App {
-  /* text-align: center; */
   box-sizing: border-box;
   background-color: #BF06B8;  
-  min-height: 100svh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -16,20 +17,6 @@ h1 {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
-}
-
-.notesArea {
-  position: absolute;
-  top: 138px;
-  left: 36px;
-
-  /* flex-wrap: wrap; */
-}
-
-@media screen and (min-width: 611px) {
-  .notesArea {
-    left: 150px;
-  }
 }
 
 

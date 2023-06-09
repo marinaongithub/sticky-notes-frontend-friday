@@ -3,7 +3,9 @@ import './addNoteButton.css'
 
 function AddNoteButton() {
   return (
-    <button className="addNote">Add Sticky Note</button>
+    <div>
+      <button className="addNote">Add Sticky Note</button>
+    </div>
   )
 }
 

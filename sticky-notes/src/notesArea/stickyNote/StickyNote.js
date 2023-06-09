@@ -3,7 +3,7 @@ import "./stickyNote.css";
 
 function StickyNote(props) {
   return (
-    <div className="notes" style={{backgroundColor:props.color}}>
+    <div className="stickyNote" style={{backgroundColor:props.color}}>
     </div>
   )
 }

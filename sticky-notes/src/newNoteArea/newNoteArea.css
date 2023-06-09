@@ -1,0 +1,17 @@
+.newNoteArea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 23px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .newNoteArea {
+        flex-direction: row;
+        margin-bottom: 86px;
+    }
+}

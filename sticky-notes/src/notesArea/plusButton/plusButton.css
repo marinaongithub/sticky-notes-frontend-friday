@@ -1,16 +1,12 @@
 .plus {
-    position: absolute;
     width: 80px;
     height: 145px;
-    left: 265px;
-    top: 0;
     text-align: center;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 120px;
     line-height: 145px;
-
     color: #FFFFFF;
+    margin: 20px 40px 0px 0px;
 }

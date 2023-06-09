@@ -1,0 +1,23 @@
+.notesArea {
+    display: flex;
+    flex-direction: row;
+    margin-left:38px;
+  }
+  
+.notesArea {
+  margin-top: 59px;
+}
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-left: 38px; */
+}
+  
+@media screen and (min-width: 700px) {
+  .notes {
+    margin-left: 150px;
+  }
+} 
