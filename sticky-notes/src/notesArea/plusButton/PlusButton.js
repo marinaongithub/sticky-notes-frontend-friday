@@ -3,7 +3,10 @@ import "./plusButton.css"
 
 function PlusButton() {
   return (
-    <div className="plus">+</div>
+    <div>
+       <button className="plus">+</button>
+    </div>
+   
   )
 }
 

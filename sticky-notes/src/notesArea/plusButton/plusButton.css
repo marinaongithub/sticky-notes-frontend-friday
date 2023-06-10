@@ -9,4 +9,7 @@
     line-height: 145px;
     color: #FFFFFF;
     margin: 20px 40px 0px 0px;
+    background-color: #BF06B8;
+    border-style: none;
+    cursor: pointer;
 }
