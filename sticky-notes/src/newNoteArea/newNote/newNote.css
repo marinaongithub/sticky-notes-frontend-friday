@@ -14,3 +14,9 @@ textarea {
       height: 139px;
     }
   } 
+
+@media screen and (max-width: 355px) {
+  textarea {
+    width: 250px;
+  }
+} 

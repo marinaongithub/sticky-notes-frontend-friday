@@ -13,8 +13,8 @@
     margin: 10px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 355px) {
     .addNote {
-        width: 299px;
+      width: 270px;
     }
-}
+  } 
