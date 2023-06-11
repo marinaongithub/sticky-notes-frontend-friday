@@ -1,10 +1,10 @@
 import React from 'react'
 import './addNoteButton.css'
 
-function AddNoteButton() {
+function AddNoteButton(props) {
   return (
     <div>
-      <button className="addNote">Add Sticky Note</button>
+      <button className="addNote" onClick={props.handleAddNote}>Add Sticky Note</button>
     </div>
   )
 }

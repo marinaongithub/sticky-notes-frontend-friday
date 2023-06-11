@@ -1,10 +1,12 @@
 import React from 'react'
 import "./plusButton.css"
 
-function PlusButton() {
+function PlusButton(props) {
+
   return (
+  
     <div>
-       <button className="plus">+</button>
+      <button className="plus" onClick={props.handlePlusClick}>+</button>
     </div>
    
   )

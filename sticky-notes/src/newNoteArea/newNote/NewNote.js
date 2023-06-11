@@ -4,7 +4,7 @@ import './newNote.css'
 function NewNote() {
   return (
     <div>
-      <textarea>Join next Meet & greet!</textarea>
+      <textarea name="note" value="Join next Meet & greet!" />
     </div>
   )
 }
