@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sticky-notes-frontend-friday/static/css/main.2e7a27bd.css",
+    "main.js": "/sticky-notes-frontend-friday/static/js/main.cc3de07c.js",
+    "static/js/787.20843c7a.chunk.js": "/sticky-notes-frontend-friday/static/js/787.20843c7a.chunk.js",
+    "index.html": "/sticky-notes-frontend-friday/index.html",
+    "main.2e7a27bd.css.map": "/sticky-notes-frontend-friday/static/css/main.2e7a27bd.css.map",
+    "main.cc3de07c.js.map": "/sticky-notes-frontend-friday/static/js/main.cc3de07c.js.map",
+    "787.20843c7a.chunk.js.map": "/sticky-notes-frontend-friday/static/js/787.20843c7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e7a27bd.css",
+    "static/js/main.cc3de07c.js"
+  ]
+}
