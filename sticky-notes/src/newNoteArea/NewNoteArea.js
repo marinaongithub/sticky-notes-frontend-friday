@@ -3,12 +3,14 @@ import NewNote from './newNote/NewNote'
 import AddNoteButton from './addNoteButton/AddNoteButton'
 import './newNoteArea.css'
 
-function NewNoteArea() {
+function NewNoteArea({text, handleChange, handleAddNote}) {
+
+  
 
   return (
     <div className="newNoteArea" >
-        <NewNote />
-        <AddNoteButton />
+        <NewNote text={text} handleChange={handleChange}/>
+        <AddNoteButton handleAddNote={handleAddNote}/>
     </div>
   )
 }

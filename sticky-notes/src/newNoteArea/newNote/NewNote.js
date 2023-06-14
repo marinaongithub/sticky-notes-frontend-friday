@@ -1,10 +1,13 @@
 import React from 'react'
 import './newNote.css'
 
-function NewNote() {
+function NewNote({text, handleChange}) {
+
+  
+
   return (
     <div>
-      <textarea name="note" value="Join next Meet & greet!" />
+      <textarea name="note" value={text} onChange={handleChange}>{text}</textarea> 
     </div>
   )
 }

@@ -15,17 +15,26 @@ function App() {
     </StickyNote>,<StickyNote color={colors[1]}></StickyNote>, <StickyNote color={colors[2]}></StickyNote>,
     <StickyNote color={colors[3]}></StickyNote>])
 
+  const [text, setText] = useState("Join next Meet & greet!")
+
+
   const handlePlusClick = () => {
-    setNewNote(<NewNoteArea/>)
+    setNewNote(<NewNoteArea text={text} handleChange={handleChange} handleAddNote={handleAddNote}/>)
     console.log("newNote")
   }
 
-  // const handleAddNote = () => {
-  //   setNewNote(<NewNoteArea handleAddNote={handleAddNote}/>)
-  //   setStickyNotes(stickyNotes.push(<StickyNote color={colors[Math.floor(Math.random() * 4)]}></StickyNote>))
-  //   console.log("New sticky note added")
+  const handleAddNote = () => {
+    setNewNote()
+    stickyNotes.push(<StickyNote color={colors[Math.floor(Math.random() * 4)]} text={text}></StickyNote>)
+    setStickyNotes(stickyNotes)
+    console.log("New sticky note added")
     
-  // }
+  }
+
+  const handleChange = (event) => {
+    setText(event.target.value);
+  };
+
 
   return (
     <div className="App">
