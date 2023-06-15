@@ -1,10 +1,10 @@
 # Sticky Notes App Frontend Friday Challenge
 
-This repository contains my solution for the Frontend Friday Challenge organized by Women Who Code. The challenge was to implement the UI for as Sticky Notes App.
+This repository contains my solution for the Frontend Friday Challenge organized by Women Who Code. The challenge was to implement the UI for a Sticky Notes App.
 
 ## Challenge Description
 
-The challenge required implementing a responsive web page for a Sticky Notes App based on a Figma file. The challenge also suggests to add some JavaScript functionalities. The web page includes a sticky notes section, a plus button, a text box a a "Add Sticky Note" button.
+The challenge required implementing a responsive web page for a Sticky Notes App based on a Figma file. The challenge also suggests adding some JavaScript functionalities. The web page includes a sticky notes section, a plus button, a text box a a "Add Sticky Note" button.
 
 ## Design Specification
 
@@ -18,7 +18,7 @@ Refer to this [Figma file](https://www.figma.com/file/nDqzaOVXKwSA7RMILi8rOx/Sti
 
 ## Approach
 
-I followed the given design specification and utilized modern HTML, CSS, and React techniques to create the responsive web page. Here's a brief overview of my approach:
+I followed the given design specification and utilized modern HTML, CSS, and React to create the responsive web page. Here's a brief overview of my approach:
 
 1. Created the React components according to the different sections of the landing page.
 2. Styled the components using CSS, focusing on layout, typography, colors, and responsive design.
