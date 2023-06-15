@@ -3,7 +3,8 @@
     flex-direction: row;
     margin-left:38px;
     margin-top: 59px;
-    justify-content: center;
+    justify-content: flex-end;
+    width: 80%;
   }
 
 .notes {
@@ -11,5 +12,6 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+
 }
   
