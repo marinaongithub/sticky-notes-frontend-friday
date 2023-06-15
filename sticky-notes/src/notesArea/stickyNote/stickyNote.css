@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 450px) {
 
-    [style="background-color: rgb(5, 0, 255);"], [style="background-color: rgb(255, 184, 0);"] {
+    .stickyNote[style="background-color: rgb(5, 0, 255);"], .stickyNote[style="background-color: rgb(255, 184, 0);"] {
         display: none;
   
   } 

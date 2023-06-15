@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Sticky Notes App Frontend Friday Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains my solution for the Frontend Friday Challenge organized by Women Who Code. The challenge was to implement the UI for as Sticky Notes App.
 
-## Available Scripts
+## Challenge Description
 
-In the project directory, you can run:
+The challenge required implementing a responsive web page for a Sticky Notes App based on a Figma file. The challenge also suggests to add some JavaScript functionalities. The web page includes a sticky notes section, a plus button, a text box a a "Add Sticky Note" button.
 
-### `npm start`
+## Design Specification
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Refer to this [Figma file](https://www.figma.com/file/nDqzaOVXKwSA7RMILi8rOx/Sticky-notes-creator?type=design&node-id=201-7&t=3T0a5wFgR0UN6xS3-0) for the design specifications, including the layout, typography, colors, and any specific design elements required.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- HTML5
+- CSS3
+- React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Approach
 
-### `npm run build`
+I followed the given design specification and utilized modern HTML, CSS, and React techniques to create the responsive web page. Here's a brief overview of my approach:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Created the React components according to the different sections of the landing page.
+2. Styled the components using CSS, focusing on layout, typography, colors, and responsive design.
+3. Implemented useState hooks for interactive elements.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features Implemented
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Responsive layout that adapts to different screen sizes (desktop, tablet, and mobile).
+- A click on the "+" button triggers the text box and the "Add Sticky Notes" button appearance
+- A click on the "Add Sticky Notes" button triggers the creation of a new sticky note and makes the text box and the "Add Sticky Notes" button disappear. 
+- The new sticky note has a random color chosen out of the 4 colors shown on the Figma file design.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Check the live app [here](https://marinaongithub.github.io/sticky-notes-frontend-friday/) or see the screenshots below:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
