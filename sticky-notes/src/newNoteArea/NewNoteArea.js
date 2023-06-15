@@ -3,7 +3,7 @@ import NewNote from './newNote/NewNote'
 import AddNoteButton from './addNoteButton/AddNoteButton'
 import './newNoteArea.css'
 
-function NewNoteArea({text, handleChange, handleAddNote}) {
+function NewNoteArea({ text, handleChange, handleAddNote}) {
 
   
 

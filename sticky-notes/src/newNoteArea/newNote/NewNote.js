@@ -7,7 +7,7 @@ function NewNote({text, handleChange}) {
 
   return (
     <div>
-      <textarea name="note" value={text} onChange={handleChange}>{text}</textarea> 
+      <textarea name="note" value={text} onChange={handleChange}></textarea> 
     </div>
   )
 }
